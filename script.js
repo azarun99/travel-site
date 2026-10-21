@@ -20,9 +20,11 @@ async function search() {
     const res = await fetch("travel_recommendation_api.json");
     const data = await res.json();
     let out = [];
-    if (q.includes("beach")) out = data.beaches;
+        if (q.includes("beach")) out = data.beaches;
     else if (q.includes("temple")) out = data.temples;
-    else {
+    else if (q.includes("countr")) {
+      out = data.countries.flatMap(c => c.cities);
+    } else {
       const country = data.countries.find(c => c.name.toLowerCase().includes(q) || q.includes(c.name.toLowerCase()));
       if (country) out = country.cities;
     }
