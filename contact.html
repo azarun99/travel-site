@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us - Wayfarer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">Wayfarer</div>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search beach, temple, country">
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear</button>
+  </div>
+</nav>
+<main class="page">
+  <h1>Contact Us</h1>
+  <p>Have a question or a destination to suggest? Send us a message.</p>
+  <form id="contactForm" class="form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMsg"></p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

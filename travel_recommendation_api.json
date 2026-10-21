@@ -1,0 +1,21 @@
+{
+  "countries": [
+    {"id":1,"name":"Australia","cities":[
+      {"name":"Sydney, Australia","imageUrl":"images/sydney.jpg","description":"A vibrant city known for its iconic Opera House and stunning harbour."},
+      {"name":"Melbourne, Australia","imageUrl":"images/melbourne.jpg","description":"A cultural hub famous for its art, coffee and laneways."}]},
+    {"id":2,"name":"Japan","cities":[
+      {"name":"Tokyo, Japan","imageUrl":"images/tokyo.jpg","description":"A bustling metropolis blending tradition and technology."},
+      {"name":"Kyoto, Japan","imageUrl":"images/kyoto.jpg","description":"Famous for its temples, gardens and traditional geisha districts."}]},
+    {"id":3,"name":"Brazil","cities":[
+      {"name":"Rio de Janeiro, Brazil","imageUrl":"images/brazil_rio.jpg","description":"A lively city known for its beaches, carnival and Christ the Redeemer."},
+      {"name":"São Paulo, Brazil","imageUrl":"images/brazil_sao.jpg","description":"The largest city in Brazil, famous for food, art and nightlife."}]}
+  ],
+  "temples": [
+    {"id":1,"name":"Angkor Wat, Cambodia","imageUrl":"images/angkor.jpg","description":"A massive temple complex and the largest religious monument in the world."},
+    {"id":2,"name":"Taj Mahal, India","imageUrl":"images/taj.jpg","description":"An iconic white marble mausoleum, a symbol of eternal love."}
+  ],
+  "beaches": [
+    {"id":1,"name":"Bora Bora, French Polynesia","imageUrl":"images/bora.jpg","description":"An island paradise with clear turquoise water and overwater bungalows."},
+    {"id":2,"name":"Copacabana Beach, Brazil","imageUrl":"images/copacabana.jpg","description":"A famous beach in Rio de Janeiro with golden sand and lively atmosphere."}
+  ]
+}
